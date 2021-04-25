@@ -56,7 +56,7 @@ local function run_once(cmd_arr)
     end
 end
 
-run_once({ "urxvtd" }) -- entries must be separated by commas
+run_once({ "urxvtd", "ssh-agent" }) -- entries must be separated by commas
 
 -- This function implements the XDG autostart specification
 --[[
